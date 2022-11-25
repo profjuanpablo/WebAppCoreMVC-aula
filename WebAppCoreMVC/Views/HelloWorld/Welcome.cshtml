@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Bem Vindo";
+}
+
+<h2>BEm Vindo!!</h2>
+
+<ul>
+    @for (int i =0; i <= (int)ViewData["NumTimes"]; i++)
+    {
+        <li>@ViewData["Msg"] - Repetição Número: @i</li>
+    }
+   
+</ul>
